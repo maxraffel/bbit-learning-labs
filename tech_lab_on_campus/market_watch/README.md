@@ -1,6 +1,6 @@
 # Rabbit MQ On Campus Lab
 
-## Background
+## Background (hello brianshi)
 
 The idea of this lab is to offer exposure to the RabbitMQ messaging framework, providing a basic understanding of the technology and the producer consumer relationship. During the lab you will apply your learning to create small system to setup information update on securities on interest. 
 
