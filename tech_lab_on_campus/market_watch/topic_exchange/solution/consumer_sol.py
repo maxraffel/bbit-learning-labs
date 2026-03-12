@@ -58,7 +58,7 @@ class mqConsumer(mqConsumerInterface):
         channel.basic_ack(method_frame.delivery_tag, False)
 
         #Print message (The message is contained in the body parameter variable)
-        print(body)
+        print(body.decode('utf-8'))
 
     def startConsuming(self):
         # Print " [*] Waiting for messages. To exit press CTRL+C"
